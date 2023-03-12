@@ -10,7 +10,7 @@ const Card = (props) => {
       <div className='featureCardContent'>
         <h2>Fully Responsive</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt facere eaque doloremque dicta perspiciatis dolor pariatur sit alias tempora commodi.</p>
-        <a href="#">Read More</a>
+        <a href="#0">Read More</a>
       </div>
     </div>
   )
