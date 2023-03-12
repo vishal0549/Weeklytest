@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* nav section */
+
+.nav {
+  height: 6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 60px;
+}
+
+.left > h1 {
+  font-weight: 500;
+}
+
+.left > p {
+  font-size: 17px;
+  font-weight: 200;
+}
+
+.right {
+  display: flex;
+}
+
+.right > div {
+  margin: 0 20px;
+}
+
+/* nav section */
+
+/* main section */
+
+.main {
+  /* height: 100vh; */
+  border: 2px solid black;
+}
+
+.mainContentSection {
+  background-image: url("https://media.istockphoto.com/id/1166127348/photo/graphic-designer-workspace.jpg?s=612x612&w=0&k=20&c=OTNV2-whNHTskQD45W7pY9bq_ajnRifNwgYE6cQs1CQ=");
+  background-size: 100%;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* border: 3px solid red; */
+}
+
+.mainContentSectionDiv {  
+  text-align: center;
+  width: 70%;
+  color: white;
+}
+
+.mainContentSectionDiv > h1 {
+  margin-bottom: 20px;
+}
+.mainContentSectionDiv > p {
+  margin-bottom: 20px;
+  line-height: 2;
+}
+
+.mainContentSection > button {
+  padding: 10px 20px;
+  /* width: 250px; */
+  border-radius: 50px;
+  border: none;
+  background-color: skyblue;
+  color: white;
+  font-weight: 800;
+}
+
+
+/* Feature section */
+
+.mainFeatureSection {
+  height: 450px;
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  padding: 30px
+}
+
+/* main section */
+
+/* footer section */
+
+.footer {
+  background-color: black;
+  color: white;
+  padding: 50px;
+  display: flex;
+  gap: 5rem;
+}
+
+.footer h3 {
+  margin-bottom: 25px;
+}
+
+.leftFooter {
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  /* width: 400px; */
+}
+
+.leftFooter > div {
+  
+  
+  /* margin-right: 50px; */
+}
+
+.leftFooter > div p {
+  font-weight: 200;  
+}
+
+.leftFooterInnerLeft {
+  text-align: justify;
+  width: 350px;
+}
+
+.leftFooterInnerRight > div {
+  margin-bottom: 25px;
+}
+
+.leftFooterInnerRight > div > p:nth-child(1) {
+  margin-bottom: 10px;
+}
+
+.leftFooterInnerRight > div > p:nth-child(2) {
+  font-size: 12px;
+}
+
+.rightFooter {
+  width: 30%;
+  padding: 0 20px;
+
+}
+
+.imageFooterRightSection {
+  width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.imageFooterRightSection > img {
+  height: 80px;
+  width: 80px;
+  
+
+}
+
+/* footer section */
