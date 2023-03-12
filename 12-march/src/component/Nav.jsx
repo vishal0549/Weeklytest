@@ -4,7 +4,7 @@ const Nav = () => {
   return (
     <div className='nav'>
         <div className="left">
-            <h1>FlexBusiness Pro</h1>
+            <h1>Flex Business Pro</h1>
             <p>Clean and Modern Business Theme</p>
         </div>
         <div className="right">
