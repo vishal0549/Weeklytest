@@ -5,7 +5,7 @@ const Card = (props) => {
   return (
     <div className='featureCard'>
       <div className='featureCardImg'>
-        <i class={props.icon}></i>
+        <i className={props.icon}></i>
       </div>
       <div className='featureCardContent'>
         <h2>Fully Responsive</h2>
