@@ -1,6 +1,6 @@
 import ApiCall from "./ApiCall"
 
-const UserDetailsTable = () => {
+const UserDetailsTable = ({ sort }) => {
   return (
     <div className='user-details-table'>
         <table className="table">
@@ -13,7 +13,7 @@ const UserDetailsTable = () => {
               </tr>
           </thead>
           
-          <ApiCall />
+          <ApiCall showData={sort} />
                 
         </table>
     </div>
